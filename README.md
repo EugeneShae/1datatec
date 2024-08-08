@@ -16,8 +16,7 @@ This Laravel API demonstrates proficiency with Laravel's job queues, database op
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/submission-api.git
-   cd submission-api
+   git clone https://github.com/EugeneShae/1datatec.git submission-api
    ```
 
 2. Install dependencies:
