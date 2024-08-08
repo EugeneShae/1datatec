@@ -16,7 +16,7 @@ This Laravel API demonstrates proficiency with Laravel's job queues, database op
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/EugeneShae/1datatec.git submission-api
+   git clone https://github.com/EugeneShae/1datatec.git submission-api && cd submission-api
    ```
 
 2. Install dependencies:
@@ -28,23 +28,28 @@ This Laravel API demonstrates proficiency with Laravel's job queues, database op
    ```bash
    cp .env.example .env
    ```
+   
+4. Create a new SQLite database using the touch command in your terminal:
+   ```bash
+   touch database/database.sqlite
+   ```
 
-4. Generate an application key:
+5. Generate an application key:
    ```bash
    php artisan key:generate
    ```
 
-5. Run migrations:
+6. Run migrations:
    ```bash
    php artisan migrate
    ```
 
-6. Start the development server:
+7. Start the development server:
    ```bash
    php artisan serve
    ```
 
-7. In a separate terminal, start the queue worker:
+8. In a separate terminal, start the queue worker:
    ```bash
    php artisan queue:work
    ```
